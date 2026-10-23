@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>お問い合わせ｜株式会社Yuuseinovation</title>
+  <meta name="description" content="株式会社Yuuseinovationへのお問い合わせはこちら。DXのご相談、オーダースーツのご予約、採用へのエントリーなどお気軽にどうぞ。">
+  <meta property="og:title" content="お問い合わせ｜株式会社Yuuseinovation">
+  <meta property="og:description" content="株式会社Yuuseinovationへのお問い合わせはこちら。DXのご相談、オーダースーツのご予約、採用へのエントリーなどお気軽にどうぞ。">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0f1b3d">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へスキップ</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html" aria-label="株式会社Yuuseinovation トップへ">
+        <span class="logo-mark">Y</span>
+        <span class="logo-text">Yuusei<em>no</em>vation<small>ユウセイノベーション</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="global-nav" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="global-nav" id="global-nav" aria-label="グローバルナビゲーション">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="business.html">事業内容</a></li>
+          <li><a href="president.html">社長紹介</a></li>
+          <li><a href="company.html">会社概要</a></li>
+          <li><a href="recruit.html">採用情報</a></li>
+          <li class="nav-cta"><a href="contact.html" aria-current="page">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="hero-bg" aria-hidden="true"><span class="blob blob-1"></span><span class="blob blob-3"></span></div>
+      <div class="container">
+        <p class="en">CON<span>TACT</span></p>
+        <h1>お問い合わせ</h1>
+        <p class="lead">ご相談・ご質問、なんでもお気軽にどうぞ！ 2営業日以内に、元気いっぱいお返事します。</p>
+      </div>
+    </section>
+    <nav class="breadcrumb" aria-label="パンくずリスト">
+      <div class="container"><ol><li><a href="index.html">HOME</a></li><li aria-current="page">お問い合わせ</li></ol></div>
+    </nav>
+
+    <section class="section">
+      <div class="container">
+        <div class="contact-wrap">
+          <aside class="contact-side reveal">
+            <div class="contact-card">
+              <h3>お電話でのお問い合わせ</h3>
+              <p class="tel">00-1234-5678</p>
+              <p class="hours">平日 10:00〜18:00（土日祝休み）</p>
+              <h3 style="margin-top:28px">メールでのお問い合わせ</h3>
+              <p class="mail">hello@yuuseinovation.example</p>
+              <p class="note">※本サイトは架空の企業サイトです。電話番号・メールアドレスは実在しません。</p>
+            </div>
+            <div class="contact-ceo">
+              <img src="images/president.svg" alt="" width="64" height="64">
+              <p>「どんな小さなことでも大歓迎です！ 一緒にととのいましょう♪」<br><b>代表 神本ゆうせい</b></p>
+            </div>
+          </aside>
+
+          <div class="form-wrap reveal reveal-d1">
+            <form class="form" id="contact-form" novalidate>
+              <div class="field">
+                <label for="category">お問い合わせ種別 <span class="req">必須</span></label>
+                <select id="category" name="category" required>
+                  <option value="">選択してください</option>
+                  <option>DX事業について</option>
+                  <option>YUUSEI TAILOR（採寸予約など）</option>
+                  <option>採用・エントリー</option>
+                  <option>取材・その他</option>
+                </select>
+                <p class="error">お問い合わせ種別を選んでくださいね！</p>
+              </div>
+              <div class="field">
+                <label for="company">会社名 <span class="opt">任意</span></label>
+                <input type="text" id="company" name="company" autocomplete="organization" placeholder="例）株式会社ととのい">
+              </div>
+              <div class="field">
+                <label for="name">お名前 <span class="req">必須</span></label>
+                <input type="text" id="name" name="name" autocomplete="name" placeholder="例）山田 花子" required>
+                <p class="error">お名前を教えてください！</p>
+              </div>
+              <div class="field">
+                <label for="email">メールアドレス <span class="req">必須</span></label>
+                <input type="email" id="email" name="email" autocomplete="email" placeholder="例）hanako@example.com" required>
+                <p class="error">メールアドレスの形式をご確認ください。</p>
+              </div>
+              <div class="field">
+                <label for="tel">電話番号 <span class="opt">任意</span></label>
+                <input type="tel" id="tel" name="tel" autocomplete="tel" placeholder="例）00-0000-0000">
+              </div>
+              <fieldset class="field" style="border:0;padding:0;margin:0">
+                <legend style="font-weight:700;font-size:.92rem;margin-bottom:10px">ご希望の連絡方法 <span class="opt">任意</span></legend>
+                <div class="radio-group">
+                  <label><input type="radio" name="reply" value="mail" checked><span>メール</span></label>
+                  <label><input type="radio" name="reply" value="tel"><span>お電話</span></label>
+                  <label><input type="radio" name="reply" value="online"><span>オンライン面談</span></label>
+                </div>
+              </fieldset>
+              <div class="field">
+                <label for="message">お問い合わせ内容 <span class="req">必須</span></label>
+                <textarea id="message" name="message" placeholder="ご相談内容をご自由にお書きください。" required></textarea>
+                <p class="error">10文字以上でご入力ください。</p>
+              </div>
+              <div class="field">
+                <label class="check"><input type="checkbox" name="agree"> 個人情報の取り扱いに同意する</label>
+                <p class="error">ご同意をお願いします。</p>
+              </div>
+              <button class="btn btn-primary" type="submit">送信する <span class="arrow">→</span></button>
+            </form>
+
+            <div class="form-done" role="status">
+              <p class="emoji" aria-hidden="true">🎉</p>
+              <h3>ナイス送信！ ありがとうございます！</h3>
+              <p>内容を確認して、2営業日以内にご連絡しますね。<br>（※デモサイトのため、実際には送信されていません）</p>
+              <a class="btn btn-outline" href="index.html" style="margin-top:28px">トップへ戻る <span class="arrow">→</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a class="logo" href="index.html">
+            <span class="logo-mark">Y</span>
+            <span class="logo-text">Yuusei<em>no</em>vation<small>ユウセイノベーション</small></span>
+          </a>
+          <p class="footer-info">
+            株式会社Yuuseinovation<br>
+            〒000-0000 東京都ととのい区サウナ町1-2-3 ユウセイビル7F<br>
+            TEL：00-1234-5678（平日 10:00〜18:00）<br>
+            MAIL：hello@yuuseinovation.example
+          </p>
+        </div>
+        <div class="footer-nav">
+          <div>
+            <h4>COMPANY</h4>
+            <ul>
+              <li><a href="company.html">会社概要</a></li>
+              <li><a href="president.html">社長紹介</a></li>
+              <li><a href="recruit.html">採用情報</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>BUSINESS</h4>
+            <ul>
+              <li><a href="business.html#dx">DX事業</a></li>
+              <li><a href="business.html#tailor">YUUSEI TAILOR</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>CONTACT</h4>
+            <ul>
+              <li><a href="contact.html">お問い合わせ</a></li>
+              <li><a href="index.html">HOME</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="note">※本サイトは架空の企業サイトです。社名・住所・電話番号・メールアドレスはすべて架空のものです。</p>
+        <p>&copy; <span data-year>2026</span> Yuuseinovation Inc.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" type="button" aria-label="ページの先頭へ戻る">↑</button>
+  <script src="js/main.js"></script>
+</body>
+</html>

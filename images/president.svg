@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-labelledby="t">
+  <title id="t">代表取締役 神本ゆうせいのポートレート（ロバ顔イラスト）</title>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0" stop-color="#ffe1d2"/>
+      <stop offset=".55" stop-color="#ffb3c1"/>
+      <stop offset="1" stop-color="#ff7d98"/>
+    </radialGradient>
+    <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9c8d80"/>
+      <stop offset="1" stop-color="#857669"/>
+    </linearGradient>
+    <linearGradient id="suit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d2b5c"/>
+      <stop offset="1" stop-color="#0f1b3d"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="500" fill="url(#bg)"/>
+  <!-- きらきら -->
+  <g fill="#fff" opacity=".85">
+    <path d="M60 90 l5 14 14 5 -14 5 -5 14 -5 -14 -14 -5 14 -5z"/>
+    <path d="M335 150 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4z"/>
+    <path d="M330 60 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3z"/>
+    <circle cx="80" cy="230" r="4"/>
+    <circle cx="350" cy="260" r="3"/>
+  </g>
+
+  <!-- スーツ -->
+  <path d="M40 500 C 50 440, 110 410, 170 402 L 230 402 C 290 410, 350 440, 360 500 Z" fill="url(#suit)"/>
+  <path d="M170 402 L200 470 L230 402 Z" fill="#fff"/>
+  <path d="M192 418 L208 418 L214 470 L200 490 L186 470 Z" fill="#ff5a7a"/>
+  <path d="M190 405 L210 405 L206 420 L194 420 Z" fill="#e0405f"/>
+  <path d="M170 402 L150 412 L188 480 L200 470 Z" fill="#26386f"/>
+  <path d="M230 402 L250 412 L212 480 L200 470 Z" fill="#26386f"/>
+  <path d="M262 440 l18 -4 4 14 -18 4z" fill="#ff9a62"/>
+
+  <!-- 耳 -->
+  <g transform="rotate(-16 150 120)">
+    <ellipse cx="150" cy="58" rx="24" ry="70" fill="url(#fur)"/>
+    <ellipse cx="150" cy="62" rx="12" ry="52" fill="#f2b5b5"/>
+  </g>
+  <g transform="rotate(16 250 120)">
+    <ellipse cx="250" cy="58" rx="24" ry="70" fill="url(#fur)"/>
+    <ellipse cx="250" cy="62" rx="12" ry="52" fill="#f2b5b5"/>
+  </g>
+
+  <!-- 首 -->
+  <path d="M165 380 L235 380 L232 412 L168 412 Z" fill="#7b6d61"/>
+
+  <!-- 細長い顔 -->
+  <path d="M200 88 C 146 88, 132 132, 134 200 C 136 262, 122 300, 124 342 C 126 398, 162 424, 200 424 C 238 424, 274 398, 276 342 C 278 300, 264 262, 266 200 C 268 132, 254 88, 200 88 Z" fill="url(#fur)"/>
+
+  <!-- たてがみ -->
+  <path d="M172 104 C 168 84, 184 70, 192 86 C 194 64, 214 62, 212 84 C 222 68, 238 78, 230 102 C 214 96, 188 96, 172 104 Z" fill="#4a3b31"/>
+
+  <!-- ハチマキ（体育会系） -->
+  <path d="M136 150 C 170 140, 230 140, 264 150 L 263 172 C 230 162, 170 162, 137 172 Z" fill="#fff"/>
+  <path d="M136 150 C 170 140, 230 140, 264 150 L 264 156 C 230 146, 170 146, 136 156 Z" fill="#ff5a7a"/>
+  <path d="M262 156 C 285 150, 300 140, 306 128 L 312 146 C 300 158, 284 166, 264 168 Z" fill="#fff"/>
+  <path d="M264 162 C 286 166, 300 178, 304 194 L 290 196 C 284 182, 276 174, 263 170 Z" fill="#fff"/>
+  <circle cx="200" cy="161" r="7" fill="#ff5a7a"/>
+
+  <!-- 目 -->
+  <g>
+    <ellipse cx="164" cy="214" rx="17" ry="20" fill="#fff"/>
+    <ellipse cx="236" cy="214" rx="17" ry="20" fill="#fff"/>
+    <ellipse cx="166" cy="218" rx="12" ry="15" fill="#2a1c17"/>
+    <ellipse cx="234" cy="218" rx="12" ry="15" fill="#2a1c17"/>
+    <circle cx="170" cy="211" r="5" fill="#fff"/>
+    <circle cx="238" cy="211" r="5" fill="#fff"/>
+    <circle cx="162" cy="225" r="2.2" fill="#fff"/>
+    <circle cx="230" cy="225" r="2.2" fill="#fff"/>
+    <!-- まつげ -->
+    <path d="M147 204 l-8 -6 M150 198 l-5 -8 M156 195 l-2 -8" stroke="#2a1c17" stroke-width="3" stroke-linecap="round"/>
+    <path d="M253 204 l8 -6 M250 198 l5 -8 M244 195 l2 -8" stroke="#2a1c17" stroke-width="3" stroke-linecap="round"/>
+    <!-- まゆ -->
+    <path d="M146 184 Q 164 176 180 184" stroke="#4a3b31" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M220 184 Q 236 176 254 184" stroke="#4a3b31" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- ほっぺ -->
+  <ellipse cx="146" cy="268" rx="18" ry="10" fill="#ff7d98" opacity=".55"/>
+  <ellipse cx="254" cy="268" rx="18" ry="10" fill="#ff7d98" opacity=".55"/>
+
+  <!-- 鼻づら -->
+  <ellipse cx="200" cy="350" rx="70" ry="60" fill="#eadccb"/>
+  <ellipse cx="176" cy="338" rx="9" ry="13" fill="#5a4638" transform="rotate(-12 176 338)"/>
+  <ellipse cx="224" cy="338" rx="9" ry="13" fill="#5a4638" transform="rotate(12 224 338)"/>
+  <path d="M168 378 Q 200 404 232 378" stroke="#5a4638" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M190 388 Q 200 402 210 388 Z" fill="#ff7d98"/>
+</svg>
